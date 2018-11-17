@@ -5,3 +5,7 @@
 /*.ttf
     Access-Control-Allow-Origin: *
     Content-Type: application/font-ttf
+
+/*.eot
+    Access-Control-Allow-Origin: *
+    Content-Type: application/font-eot
