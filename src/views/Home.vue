@@ -3,145 +3,11 @@
   <div>
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header_area creative_version dark transparent-menu">
-        <div class="main_header_area animated">
-            <div class="container">
-                <nav id="navigation1" class="navigation bg-transparent">
-                    <!-- Logo Area -->
-                    <div class="nav-header">
-                        <a class="nav-brand text-white" href="#">
-                            <img src="/img/logo.png" class="img img-fluid">
-                        </a>
-                        <div class="nav-toggle"></div>
-                    </div>
-                    <!-- Main Menus Wrapper -->
-                    <div class="nav-menus-wrapper">
-                        <a href="http://app.ek-core.com/login" target="_blank" class="nav-button btn-pill bg-mat-green align-to-right">Login</a>
-                        <ul class="nav-menu align-to-right" id="nav">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#service">Our Services</a></li>
-                            <li><a href="#history">Our History</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <ekheader></ekheader>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Slider Area Start ***** -->
-    <section class="welcome_area creative_version dark" id="home">
-        <!-- Slidea -->
-        <div class="slidea slidea-inverse" id="slidea">
-            <!-- Slidea Slide -->
-            <div class="slidea-slide slidea-slide-light" id="slide-artboard">
-                <!-- Slidea Content Center -->
-                <div class="slidea-content slidea-content-center">
-                    <div class="slidea-content-container">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <div class="s-obj" id="slide-artboard-welcome">
-                                        <h2 class="creative-title">Welcome to <span>Ek-Brandconsult</span></h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-toy.png" alt="" id="slide-artboard-toy">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-mech.png" alt="" id="slide-artboard-mech">=
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-needles.png" alt="" id="slide-artboard-needles">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-clock.png" alt="" id="slide-artboard-clock">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-tree.png" alt="" id="slide-artboard-tree">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-chalkboard.png" alt="" id="slide-artboard-chalkboard">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-artboard-tape.png" alt="" id="slide-artboard-tape">
-                <!-- <img src="#" class="slidea-background" data-slidea-src="/img/slide-artboard.jpg" alt=""> -->
-            </div>
-            <!-- Slidea Slide -->
-            <div class="slidea-slide slidea-slide-light" id="slide-responsive">
-                <!-- Slidea Content Center -->
-                <div class="slidea-content slidea-content-center">
-                    <div class="slidea-content-container">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-10 ml-md-auto">
-                                    <div class="s-obj" id="slide-responsive-title">
-                                        <h2 class="creative-title"><i class="fa fa-anchor ek-anchor"></i> Ek-Core</h2>
-                                        <p class="creative-description">Your Very Own Business Command Center</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-responsive-lamp.png" alt="" id="slide-responsive-lamp">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-responsive-ipad.png" alt="" id="slide-responsive-ipad">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-responsive-iphone.png" alt="" id="slide-responsive-iphone">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-responsive-macbook.png" alt="" id="slide-responsive-macbook">
-                <img src="#" class="slidea-background" data-slidea-src="/img/slide-responsive.jpg" alt="">
-            </div>
-            <!-- Slidea Slide -->
-            <div class="slidea-slide slidea-slide-light" id="slide-animations">
-                <!-- Slidea Content Center -->
-                <div class="slidea-content slidea-content-center">
-                    <div class="slidea-content-container">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-8 col-lg-6 ml-md-auto ml-lg-auto text-center">
-                                    <div class="s-obj" id="slide-animations-title">
-                                        <h2 style="color:#333;" class="creative-title">Branding & Graphic Design</h2>
-                                        <p style="color:#333;" class="creative-description">
-                                            It’s about creating an expectation and delivering it consistently.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-2 col-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-tree.png" alt="" id="slide-animations-tree">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-cogwheel.png" alt="" id="slide-animations-cogwheel">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-bottle.png" alt="" id="slide-animations-bottle">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-ink.png" alt="" id="slide-animations-ink">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-pencil.png" alt="" id="slide-animations-pencil">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-pencils.png" alt="" id="slide-animations-pencils">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-animations-paper.png" alt="" id="slide-animations-paper">
-                <img src="#" class="slidea-background" data-slidea-src="/img/slide-animations.jpg" alt="">
-            </div>
-            <!-- Slidea Slide -->
-            <div class="slidea-slide slidea-slide-light" id="slide-video">
-                <!-- Slidea Content Center -->
-                <div class="slidea-content slidea-content-center">
-                    <div class="slidea-content-container">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-8 col-lg-6 ml-md-auto ml-lg-auto text-center">
-                                    <div class="s-obj" id="slide-video-video-title">
-                                        <h2 class="creative-title">Videography &amp; Photography</h2>
-                                        <p class="creative-description">First impressions will always be important but now that we conduct so many of our initial interactions online, virtual personal branding has become as important as the firm handshake.</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-2 col-lg-3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slidea-layer slidea-video-layer" id="slide-video-video">
-                    <img class="slidea-video-cover" src="/img/slide-video-cover.jpg" alt="">
-                    <iframe class="slidea-video" data-slidea-src="https://player.vimeo.com/video/255286666?title=0&amp;byline=0&amp;portrait=0" data-slidea-pause-slider="true" data-slidea-autoplay="false" data-slidea-autoplay-time="1800" data-slidea-reset="false" data-slidea-volume="100" allowfullscreen></iframe>
-                </div>
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-video-macbook.png" alt="" id="slide-video-macbook">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-video-box.png" alt="" id="slide-video-box">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-video-pens.png" alt="" id="slide-video-pens">
-                <img src="#" class="slidea-layer" data-slidea-src="/img/slide-video-letterpress.png" alt="" id="slide-video-letterpress">
-                <img src="#" class="slidea-background" data-slidea-src="/img/slide-video.jpg" alt="">
-            </div>
-        </div>
-    </section>
+    <slider></slider>
     <!-- ***** Slider Area End ***** -->
 
     <!-- ***** About Us Area Start ***** -->
@@ -393,7 +259,7 @@
                         </div>
                         <!-- Single Service content -->
                         <div class="single_service_content">
-                            <h5>Web Design & Management</h5>
+                            <h5>Web Design &amp; Management</h5>
                             <p>
                                 Its clean, its simple and straight forward for easy understanding.
                             </p>
@@ -405,7 +271,7 @@
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="webModalLabel">Web Design & Management</h5>
+                            <h5 class="modal-title" id="webModalLabel">Web Design &amp; Management</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
@@ -654,7 +520,7 @@
                         <div class="single_timeline_block even-item clearfix">
                             <div class="timeline_main_point"></div>
                             <div class="timeline_text_content wow fadeInLeft">
-                                <h5>Social Media & Digital Technology Research</h5>
+                                <h5>Social Media &amp; Digital Technology Research</h5>
                                 <h6>May 2016</h6>
                                 <p>Studied how social media could be leveraged to handle many of the concerns and needs of SMEs in Accra.</p>
                             </div>
@@ -832,9 +698,15 @@
 </template>
 
 <script>
+import Slider from '@/components/Slidea.vue';
+import Ekheader from '@/components/Ekheader.vue';
 
 export default {
   name: 'home',
+  components: {
+    Slider,
+    Ekheader,
+  },
   data() {
     return {
 

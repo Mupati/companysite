@@ -1,4 +1,5 @@
 /* CORE STYLES */
+
 .navigation {
     width: 100%;
     height: 70px;
@@ -25,10 +26,10 @@
 }
 
 .navigation-hidden {
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    width: 0 ;
+    height: 0 ;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 .align-to-right {
@@ -48,7 +49,7 @@
     padding: 0;
     color: #343a40;
     font-size: 24px;
-    text-decoration: none !important;
+    text-decoration: none ;
 }
 
 .nav-brand:hover,
@@ -239,7 +240,7 @@
 .nav-menu.nav-menu-social > li {
     text-align: center;
     float: none;
-    border: none !important;
+    border: none ;
 }
 
 .navigation-portrait .nav-menu.nav-menu-social > li {
@@ -765,7 +766,7 @@
 .navigation-portrait .megamenu-panel-row [class*="col-"] {
     float: none;
     display: block;
-    width: 100% !important;
+    width: 100% ;
     margin-left: 0;
     margin-top: 15px;
 }

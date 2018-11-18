@@ -1,7 +1,7 @@
     /* :: 1.0 Import All CSS */
 
-    /* @import '.css/bootstrap/bootstrap.min.css'; */
-    /* @import 'magnific-popup.css';
+    @import 'bootstrap.min.css'; 
+    @import 'magnific-popup.css';
     @import 'animate.css';
     @import 'owl.carousel.css';
     @import 'YTPlayer.css';
@@ -11,8 +11,8 @@
     @import 'pe-icon-7-stroke.css';
     @import 'wfmi-style.css';
     @import 'et-line.css';
-    @import 'classy-icon.css'; */
-    /* @import 'classy-shortcodes.min.css'; */
+    @import 'classy-icon.css';
+    @import 'classy-shortcodes.min.css';
 
     /* :: 2.0 Common CSS */
 
@@ -1786,17 +1786,17 @@
     /* Creative Version CSS */
 
     .creative_version .creative-title {
-        color: #fff;
-        font-weight: 500;
-        font-size: 45px;
+        color: #fff !important;
+        font-weight: 500 !important;
+        font-size: 45px !important;
     }
 
     .creative_version .creative-title span {
-        color: #0091D5;
+        color: #0091D5 !important;
     }
 
     .creative_version .creative-description {
-        color: #fff;
+        color: #fff !important;
     }
 
     .creative_version .main_header_area.sticky .mainmenu ul#nav li.current_page_item a:after {

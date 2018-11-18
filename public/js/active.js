@@ -1,6 +1,7 @@
-// eslint disable
+// eslint-disable
 (function ($) {
     'use strict';
+    $("document").ready(function(){
 
     var $window = $(window);
 
@@ -407,5 +408,5 @@
             $(this).remove();
         });
     });
-
+  });
 })(jQuery);

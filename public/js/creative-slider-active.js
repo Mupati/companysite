@@ -1,5 +1,6 @@
 (function ($) {
 
+  $("document").ready(function(){
   $('#slidea').slidea({
     layout: 'fluid',
     overlap: 0.75,
@@ -342,4 +343,6 @@
       },
     },
   });
+  });
+
 }(jQuery));
