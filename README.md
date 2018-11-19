@@ -1,4 +1,4 @@
-# pwa
+# Ek-brandconsult Website PWA
 
 ## Project setup
 ```
