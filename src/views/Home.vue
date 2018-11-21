@@ -1,7 +1,6 @@
-<!-- eslint-disable -->
+
 <template>
   <div>
-
     <!-- ***** Header Area Start ***** -->
     <ekheader></ekheader>
     <!-- ***** Header Area End ***** -->
@@ -617,8 +616,8 @@
                         </div>
                     </div>
 
-                    <div class="contact_from">
-                        <form action="https://formspree.io/info@ek-brandconsult.com" method="POST" id="main_contact_form" novalidate>
+                    <div class="contact_from">   <!-- id="main_contact_form" This was removed from the form because formspree allows only paid users to do Ajax Calls -->
+                        <form action="https://formspree.io/info@ek-brandconsult.com" method="POST"   @submit="sendMessage" novalidate>
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div id="success_fail_info"></div>
@@ -626,31 +625,32 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" v-model="form.name" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your E-mail" required>
+                                            <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your E-mail"  v-model="form.email" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="_subject" id="subject" placeholder="Your Subject" required>
+                                            <input type="text" class="form-control" name="_subject" id="subject" placeholder="Your Subject" v-model="form.subject" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12 col-md-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="phone" id="number" placeholder="Your Phone Number*" required>
+                                            <input type="text" class="form-control" name="phone" id="number" placeholder="Your Phone Number*" v-model="form.phone" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message*" required></textarea>
+                                           <input type="hidden" name="_next" value="https://www.ek-brandconsult.com" />
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message*" v-model="form.message" required></textarea>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
@@ -709,8 +709,24 @@ export default {
   },
   data() {
     return {
+      formState: null,
+      form: {
 
+      },
     };
+  },
+
+  methods: {
+
+    sendMessage: function () {
+      this.$swal('Successful', 'Your message has been recieved', 'success');
+      this.formState = false;
+      this.$nextTick(() => {
+        this.formState = true;
+        this.form = {};
+       });
+      return false;
+    }
   },
 };
 

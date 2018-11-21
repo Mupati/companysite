@@ -105,17 +105,17 @@ break;case U[1]-1:I+=" ui-datepicker-group-last",T=" ui-corner-"+(B?"left":"righ
 /*!
  * The Final Countdown for jQuery v2.2.0 (http://hilios.github.io/jQuery.countdown/)
  * Copyright (c) 2016 Edson Hilios
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
  * the Software without restriction, including without limitation the rights to
  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
  * the Software, and to permit persons to whom the Software is furnished to do so,
  * subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
@@ -226,6 +226,7 @@ $(function () {
                 $('#name').val('');
                 $('#email').val('');
                 $('#message').val('');
+                $('#phone').val('');
             })
             .fail(function (data) {
                 // Make sure that the formMessages div has the 'error' class.
@@ -340,7 +341,7 @@ var e=this;t.LinearScaleBase.prototype.convertTicksToLabels.call(e),e.pointLabel
 
 // :: 21.0 Pie Bars
 
-/* Credits: 
+/* Credits:
  * https://www.developphp.com/video/JavaScript/Circular-Progress-Loader-Canvas-JavaScript-Programming-Tutorial
  */
 
@@ -355,18 +356,18 @@ var e=this;t.LinearScaleBase.prototype.convertTicksToLabels.call(e),e.pointLabel
 		this.total = parseInt( this.refElement.dataset.percent, 10 );
 		this.timer = null;
 		this.diff = 0;
-		this.init();	
+		this.init();
 	};
 	Progress.prototype = {
 		init: function() {
 			var self = this;
 			self.timer = setInterval(function() {
-				self.run();	
+				self.run();
 			}, 25);
 		},
 		run: function() {
 			var self = this;
-			self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 2 );	
+			self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 2 );
 			self.context.clearRect( 0, 0, self.width, self.height );
 			self.context.lineWidth = 5;
 			self.context.fillStyle = "#000";
@@ -386,7 +387,7 @@ var e=this;t.LinearScaleBase.prototype.convertTicksToLabels.call(e),e.pointLabel
 		this.bars = document.querySelectorAll( elements );
 		if( this.bars.length > 0 ) {
 			this.init();
-		}	
+		}
 	};
 	CircularSkillBar.prototype = {
 		init: function() {
@@ -404,9 +405,9 @@ var e=this;t.LinearScaleBase.prototype.convertTicksToLabels.call(e),e.pointLabel
 				var prog = new Progress( canvas );
 				if( index == self.bars.length ) {
 						clearInterval( timer );
-				} 
+				}
 			}, self.tick * 100);
-				
+
 		}
 	};
 	document.addEventListener( "DOMContentLoaded", function() {
