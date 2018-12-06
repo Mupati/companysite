@@ -15,7 +15,7 @@
                     </div>
                     <!-- Main Menus Wrapper -->
                     <div class="nav-menus-wrapper">
-                        <router-link href="https://portal.ek-brandconsult.com" target="_blank" class="nav-button btn-pill bg-mat-green align-to-right">Login</router-link>
+                        <a href="https://portal.ek-brandconsult.com" target="_blank" class="nav-button btn-pill bg-mat-green align-to-right">Login</a>
                         <ul class="nav-menu align-to-right" id="nav">
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about">About Us</a></li>
