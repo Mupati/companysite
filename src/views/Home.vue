@@ -617,7 +617,7 @@
                     </div>
 
                     <div class="contact_from">   <!-- id="main_contact_form" This was removed from the form because formspree allows only paid users to do Ajax Calls -->
-                        <form action="https://formspree.io/info@ek-brandconsult.com" method="POST"   @submit="sendMessage" novalidate>
+                        <form action="https://formspree.io/info@ek-brandconsult.com" method="POST"   @submit="sendMessage">
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div id="success_fail_info"></div>
