@@ -1,4 +1,5 @@
 <template>
+<div>
 <section id="projects" class="py-5">
     <div class="container my-5">
         <h3 class="text-center pt-5 pb-2"><strong>PROJECTS</strong></h3>
